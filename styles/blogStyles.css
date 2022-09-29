@@ -4,7 +4,6 @@ body {
 }
 
 div {
-    border: .5rem solid var(--dark-green);
     background-color: var(--dark-green);
     border-radius: .5rem;
     width: 85%;

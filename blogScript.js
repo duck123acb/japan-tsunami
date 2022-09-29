@@ -39,24 +39,29 @@
 // });
 
 // document.getElementById("toggle-this-might-be-the-last-post-again").addEventListener("click", function() {
-//     if (button.style.display === "inline") {
-//         button.style.display = "none";
+//     if (texts[textIndex].style.display === "inline") {
+//         texts[textIndex].style.display = "none";
 //         document.getElementById("toggle-this-might-be-the-last-post-again").innerHTML = "<strong>+</strong>";
 //     } else {
-//         button.style.display = "inline";
+//         texts[textIndex].style.display = "inline";
 //         document.getElementById("toggle-this-might-be-the-last-post-again").innerHTML = "<strong>-</strong>";
 //     }
 // });
 
 
 const buttons = document.getElementsByClassName("blog-button");
+const texts = document.getElementsByClassName("blog-text");
+let textIndex = 0;
 
 buttons.forEach(button => {
-    if (button.style.display === "inline") {
-        button.style.display = "none";
-        document.getElementById("toggle-this-might-be-the-last-post-again").innerHTML = "<strong>+</strong>";
-    } else {
-        button.style.display = "inline";
-        document.getElementById("toggle-this-might-be-the-last-post-again").innerHTML = "<strong>-</strong>";
-    }
+    button.addEventListener("click", function() {
+        if (texts[textIndex].style.display === "inline") {
+            texts[textIndex].style.display = "none";
+            button.innerHTML = "<strong>+</strong>";
+        } else {
+            texts[textIndex].style.display = "inline";
+            document.getElementById("toggle-this-might-be-the-last-post-again").innerHTML = "<strong>-</strong>";
+        }
+    });
+    textIndex++;
 });

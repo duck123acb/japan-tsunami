@@ -9,7 +9,7 @@ for (let i = 0; i < buttons.length; i++) {
             buttons[i].innerHTML = "<strong>+</strong>";
         } else {
             texts[i].style.display = "inline";
-            document.getElementById("toggle-this-might-be-the-last-post-again").innerHTML = "<strong>-</strong>";
+            buttons[i].innerHTML = "<strong>-</strong>";
         }
     });
 };

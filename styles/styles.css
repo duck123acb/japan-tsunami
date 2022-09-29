@@ -72,7 +72,7 @@ main {
     transition: var(--transition-speed);
 }
 
-.nav-link:hover {
+.nav-link:hover:focus {
     filter: opacity(1);
 }
 

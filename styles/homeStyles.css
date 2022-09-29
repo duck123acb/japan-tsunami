@@ -24,7 +24,7 @@ h2 {
 }
 
 div:nth-child(1) {
-    background-image: url("tsunami.jpg");
+    background-image: url("images/tsunami.jpg");
     background-attachment: fixed;
     background-size: cover;
 }

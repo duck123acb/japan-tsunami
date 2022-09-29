@@ -24,7 +24,7 @@ h2 {
 }
 
 div:nth-child(1) {
-    background-color: url("../images/tsunami.jpg");
+    background-image: url("../images/tsunami.jpg");
     background-repeat: no-repeat;
     background-position: center;
     /* background-image: url("https://github.com/duck123acb/japan-tsunami/blob/main/images/tsunami.jpg?raw=true"); */

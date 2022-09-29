@@ -28,12 +28,12 @@ h1 {
     border-radius: 16rem;
     border: none;
     background-color: var(--red-primary);
-    color: var;
+    color: var(--dark-green);
 }
 
 .blog-button:hover {
     cursor: pointer;
     color: #ffffe6;
-    background-color: var(--red-secondary);
+    background-color: #87ffd7;
     transition-duration: 550ms;
 }

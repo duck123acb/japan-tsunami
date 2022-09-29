@@ -63,7 +63,7 @@ main {
     }
 
     60% {
-        transform: translate(-10%, 10%);
+        transform: translate(-10%, 30%);
     }
 
     100%{

@@ -4,7 +4,7 @@ body {
 }
 
 div {
-    border: .5rem solid #23232e;
+    border: .5rem solid var(--dark-green);
     background-color: var(--dark-green);
     border-radius: .5rem;
     width: 85%;
@@ -13,7 +13,7 @@ div {
 
 p {
     margin: 10px;
-    color: #294861;
+    color: var(--purple);
 }
 
 h1 {
@@ -27,13 +27,13 @@ h1 {
 .blog-button {
     border-radius: 16rem;
     border: none;
-    background-color: #db6a8c;
-    color: #F6F5AE;
+    background-color: var(--red-primary);
+    color: var;
 }
 
 .blog-button:hover {
     cursor: pointer;
     color: #ffffe6;
-    background-color: #ff8eb0;
+    background-color: var(--red-secondary);
     transition-duration: 550ms;
 }

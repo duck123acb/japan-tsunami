@@ -85,11 +85,11 @@ main {
     margin: 0 1.5rem;
 }
 
-.navbar:hover, .navbar:focus {
+.navbar:hover, .navbar:focus-within {
     width: 10rem;
 }
 
-.navbar:hover .link-text {
+.navbar:hover, .navbar:focus-within .link-text {
     display: block;
 }
 

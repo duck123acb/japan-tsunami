@@ -34,6 +34,5 @@ h1 {
 .blog-button:hover {
     cursor: pointer;
     color: #ffffe6;
-    background-color: #87ffd7;
     transition-duration: 550ms;
 }

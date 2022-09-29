@@ -89,7 +89,7 @@ main {
     width: 10rem;
 }
 
-.navbar:hover, .navbar:focus-within .link-text {
+.navbar:hover, .link-text {
     display: block;
 }
 
